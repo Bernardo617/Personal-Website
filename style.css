@@ -1,0 +1,119 @@
+body{
+    color: #93B1A6;
+    margin: 0;
+    padding: 0;
+    left:16;
+    right: 16;
+    top: 16;
+    bottom: 16;
+    font-family: 'Poppins';
+    background-color: #040D12;
+}
+
+h2{
+    font-weight:  500;
+    color:  white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.5rem;
+}
+
+a{
+    color: white;
+}
+
+
+.title-container{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+
+.title-container p{
+    font-size: 1rem;
+}
+
+.title-container h1{
+    font-size: 4rem;
+    margin-bottom: 16px;
+    font-weight:  500;
+    color:  white;
+ 
+}
+
+.aboutme{
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 200px;
+}
+
+.picture-container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.profile-pic{
+    height: 600px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.cvinfo-container{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.cv-sections{
+    padding: 0;
+}
+
+a{
+    margin-right: 15px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+
+}
+
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#subject{
+    width: 382px;
+}
+
+#message{
+    padding: 0px;
+    border: 0px;
+}
+
+/* Media querry para responsividade do header*/
+
